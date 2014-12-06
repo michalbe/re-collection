@@ -13,5 +13,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "steal": "~0.3.0",
+    "canjs": "https://github.com/bitovi/canjs.git#minor"
+  }
 }
