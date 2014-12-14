@@ -7,8 +7,8 @@ steal.config({
   paths: {
     'steal/*' : '../*.js',
     '@traceur': 'traceur/traceur.js',
-    'can/*': 'bower_components//CanJS/*.js',
-    'jquery': 'bower_components//jquery/dist/jquery.js'
+    'can/*': 'bower_components/canjs/*.js',
+    'jquery': 'bower_components/jquery/dist/jquery.js'
   },
   meta: {
     jquery: {
