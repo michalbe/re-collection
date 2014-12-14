@@ -23,5 +23,6 @@
   "node": true,
   "devel": true,
   "nonstandard": true,
-  "worker": true
+  "worker": true,
+  "predef": ["steal"]
 }
