@@ -89,3 +89,9 @@ td.center {
 img.platform {
   height: 20px;
 }
+
+img.flag {
+  height: 20px;
+  width: 30px;
+  border: 1px solid #000;
+}
