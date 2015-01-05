@@ -17,6 +17,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -82,14 +83,9 @@ table th:after {
   position: absolute;
 }
 
-#credits {
-  text-align: right;
-  color: white;
+td.center {
+  text-align: center;
 }
-#credits a {
-  color: #16a085;
-  text-decoration: none;
-}
-#credits a:hover {
-  text-decoration: underline;
+img.platform {
+  height: 20px;
 }
