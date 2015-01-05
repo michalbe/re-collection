@@ -24,7 +24,11 @@ var renderPosition = function(data) {
 
   // Region
   var region = document.createElement('td');
-  region.innerHTML = data.region;
+  region.className = 'center';
+  var regionImg = document.createElement('img');
+  regionImg.className = 'flag';
+  regionImg.src = 'data/regions/' + data.region + '.png';
+  region.appendChild(regionImg);
 
   // Rarity
   var rarity = document.createElement('td');
