@@ -1,4 +1,4 @@
-[
+var collection = [
   {
     "id": "gbc-res-evi-gai-1",
     "title": "Resident Evil Gaiden",
