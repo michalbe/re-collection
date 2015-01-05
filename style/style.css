@@ -46,6 +46,7 @@ h1 {
   vertical-align: middle;
   display: inline-block;
   white-space: normal;
+  width: 100%;
 }
 
 #box:after {
@@ -60,6 +61,7 @@ h1 {
 table {
   background-color: white;
   padding: 1em;
+  width: 100%;
 }
 table, table * {
   border-color: #27ae60 !important;
