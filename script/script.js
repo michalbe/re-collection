@@ -1,3 +1,6 @@
+'use strict';
+/* global collection */
+
 var table = document.getElementById('table');
 
 var renderPosition = function(data) {
@@ -15,6 +18,6 @@ var renderPosition = function(data) {
   parent.appendChild(title);
 
   table.appendChild(parent);
-}
+};
 
 renderPosition(collection[0]);
