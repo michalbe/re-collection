@@ -6,7 +6,6 @@
   "newcap": false,
   "noarg": true,
   "nonew": true,
-  "quotmark": "single",
   "undef": true,
   "unused": "vars",
   "strict": true,

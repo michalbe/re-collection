@@ -1,3 +1,6 @@
+'use strict';
+
+/* exported collection */
 var collection = [
   {
     "id": "gbc-res-evi-gai-1",
@@ -1644,4 +1647,4 @@ var collection = [
     "rarity": 0,
     "platform": "pc"
   }
-]
+];
