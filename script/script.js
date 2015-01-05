@@ -16,7 +16,11 @@ var renderPosition = function(data) {
 
   // Platform
   var platform = document.createElement('td');
-  platform.innerHTML = data.platform;
+  platform.className = 'center';
+  var platformImg = document.createElement('img');
+  platformImg.className = 'platform';
+  platformImg.src = 'data/platforms/' + data.platform + '.png';
+  platform.appendChild(platformImg);
 
   // Region
   var region = document.createElement('td');
@@ -35,4 +39,4 @@ var renderPosition = function(data) {
   table.appendChild(parent);
 };
 
-renderPosition(collection[0]);
+collection.forEach(renderPosition);
