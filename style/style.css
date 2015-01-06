@@ -12,20 +12,11 @@ html, body {
 }
 
 body {
-  padding: 5em 1em;
   background-image: url(bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-h1 {
-  text-align: center;
-  font-size: 275%;
-  font-weight: 300;
-  margin-top: -1em;
-  text-shadow: 0 2px 1px white;
 }
 
 #box {
@@ -47,15 +38,6 @@ h1 {
   width: 100%;
 }
 
-#box:after {
-  content: "";
-  width: 1px;
-  height: 100%;
-  vertical-align: middle;
-  display: inline-block;
-  margin-right: -10px;
-}
-
 table {
   background-color: white;
   padding: 1em;
@@ -71,16 +53,6 @@ table th {
   color: white;
   background-color: #27ae60;
   position: relative;
-}
-table th:after {
-  content: "";
-  display: block;
-  height: 5px;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: #16a085;
-  position: absolute;
 }
 
 td.center {
@@ -113,4 +85,8 @@ th {
 
 tr:not(.owned) {
   opacity: 0.5;
+}
+
+#show-all {
+  margin: 5px 5px 5px 0;
 }
