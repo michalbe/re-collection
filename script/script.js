@@ -7,6 +7,9 @@ var table = document.getElementById('table');
 var renderPosition = function(data) {
   var parent = document.createElement('tr');
 
+  if ('owned' in data && data.owned) {
+    parent.className = 'owned';
+  }
   // Cover
   var cover = document.createElement('td');
   cover.className = 'center';

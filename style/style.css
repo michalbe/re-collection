@@ -110,3 +110,7 @@ img.flag {
 th {
   cursor: pointer;
 }
+
+tr:not(.owned) {
+  opacity: 0.5;
+}
