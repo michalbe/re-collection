@@ -8,8 +8,11 @@ var renderPosition = function(data) {
 
   // Cover
   var cover = document.createElement('td');
+  cover.className = 'cover';
   cover.style.backgroundImage = 'url(data/covers/no-cover.jpg)';
-
+  cover.onerror = function() {
+    this.src= 'url(data/covers/no-cover.jpg)';
+  }
   // Title
   var title = document.createElement('td');
   title.innerHTML = data.title;
