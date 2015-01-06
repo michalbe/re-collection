@@ -70,7 +70,8 @@ var collection = [
     "title": "Resident Evil Dead Aim",
     "region": 1,
     "rarity": 2,
-    "platform": "ps2"
+    "platform": "ps2",
+    "owned": 1
   },
   {
     "id": "ps2-res-evi-dea-aim-2",
@@ -308,7 +309,8 @@ var collection = [
     "title": "Resident Evil White Label",
     "region": 1,
     "rarity": 2,
-    "platform": "ps1"
+    "platform": "ps1",
+    "owned": 1
   },
   {
     "id": "ps1-res-evi-whi-lab-val-ser-1",
@@ -385,7 +387,8 @@ var collection = [
     "title": "Resident Evil 2",
     "region": 1,
     "rarity": 1,
-    "platform": "ps1"
+    "platform": "ps1",
+    "owned": 1
   },
   {
     "id": "ps1-res-evi-2-pla-1",
@@ -448,7 +451,8 @@ var collection = [
     "title": "Resident Evil 3",
     "region": 1,
     "rarity": 1,
-    "platform": "ps1"
+    "platform": "ps1",
+    "owned": 1
   },
   {
     "id": "ps1-res-evi-3-2",
