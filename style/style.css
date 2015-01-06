@@ -87,6 +87,11 @@ tr:not(.owned) {
   opacity: 0.5;
 }
 
+#stats,
 #show-all {
   margin: 5px 5px 5px 0;
+}
+
+#stats {
+  float: right;
 }
