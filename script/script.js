@@ -30,7 +30,10 @@ var renderPosition = function(data) {
   coverImg.onerror = (function(img, anh){
     return function() {
       img.src = 'data/covers/no-cover.jpg';
-      anh.href = '#';
+      var parent = anh.parentNode;
+      parent.removeChild(anh);
+      parent.appendChild(img);
+
     };
   })(coverImg, anhor);
 
