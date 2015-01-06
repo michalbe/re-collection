@@ -1665,7 +1665,14 @@ var collection = [
     "id": "pc-res-evi-4-supers",
     "title": "Resident Evil 4 Super$eller",
     "region": 1,
-    "rarity": 4,
+    "rarity": 3,
+    "platform": "pc"
+  },
+  {
+    "id": "pc-res-evi-5-pg",
+    "title": "Resident Evil 5 Premium Games",
+    "region": 1,
+    "rarity": 3,
     "platform": "pc"
   }
 ];
