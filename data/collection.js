@@ -1691,7 +1691,7 @@ var collection = [
   {
     "id": "pc-res-evi-4-supers",
     "title": "Resident Evil 4 Super$eller",
-    "region": 1,
+    "region": 7,
     "rarity": 3,
     "platform": "pc",
     "owned": 1
