@@ -81,6 +81,17 @@ var options = {
 };
 
 var gameList = new List('box', options);
-gameList.filter(function(item){
-  return item.elm.classList.contains('owned');
+var allVisible = false;
+
+var filterList = function(){
+  gameList.filter(function(item){
+    return item.elm.classList.contains('owned');
+  });
+}
+
+document.getElementById('show-all').addEventListener('click', function() {
+  allVisible = !allVisible;
+  this.innerHTML = allVisible ? (gameList.filter(), "Show owned only") : (filterList(), "Show all games");
+
 });
+filterList();
