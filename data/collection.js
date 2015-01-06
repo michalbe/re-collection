@@ -1462,7 +1462,7 @@ var collection = [
     "id": "pc-res-evi-3-big-box-1",
     "title": "Resident Evil 3 Big Box",
     "region": 1,
-    "rarity": 2,
+    "rarity": 3,
     "platform": "pc"
   },
   {
@@ -1674,5 +1674,12 @@ var collection = [
     "region": 1,
     "rarity": 3,
     "platform": "pc"
+  },
+  {
+    "id": "ps3-res-evi-bio-remastered",
+    "title": "Resident Evil/Biohazard Remastered",
+    "region": 0,
+    "rarity": 1,
+    "platform": "ps2"
   }
 ];
