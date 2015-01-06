@@ -48,7 +48,7 @@ var renderRarity = function(rarity) {
   var parent = document.createElement('td');
   parent.style.width = '120px';
   parent.className = 'center';
-  
+
   for (var i=0; i<rarity; i++) {
     rarityImg = document.createElement('img');
     rarityImg.className = 'rarity';
@@ -57,6 +57,6 @@ var renderRarity = function(rarity) {
   }
 
   return parent;
-}
+};
 
 collection.forEach(renderPosition);
