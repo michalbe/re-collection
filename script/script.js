@@ -23,10 +23,11 @@ var renderPosition = function(data) {
   // Title
   var title = document.createElement('td');
   title.innerHTML = data.title;
+  title.className = 'title';
 
   // Platform
   var platform = document.createElement('td');
-  platform.className = 'center';
+  platform.className = 'center platform';
   var platformImg = document.createElement('img');
   platformImg.className = 'platform';
   platformImg.src = 'data/platforms/' + data.platform + '.png';
@@ -34,7 +35,7 @@ var renderPosition = function(data) {
 
   // Region
   var region = document.createElement('td');
-  region.className = 'center';
+  region.className = 'center region';
   var regionImg = document.createElement('img');
   regionImg.className = 'flag';
   regionImg.src = 'data/regions/' + data.region + '.png';
@@ -57,7 +58,7 @@ var renderRarity = function(rarity) {
   var rarityImg;
   var parent = document.createElement('td');
   parent.style.width = '120px';
-  parent.className = 'center';
+  parent.className = 'center rarity';
 
   for (var i=0; i<rarity; i++) {
     rarityImg = document.createElement('img');
@@ -70,3 +71,9 @@ var renderRarity = function(rarity) {
 };
 
 collection.forEach(renderPosition);
+
+var options = {
+  valueNames: [ 'title', 'platform', 'region', 'rarity' ]
+};
+
+var hackerList = new List('box', options);
