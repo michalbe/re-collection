@@ -31,8 +31,7 @@ var renderPosition = function(data) {
   region.appendChild(regionImg);
 
   // Rarity
-  var rarity = document.createElement('td');
-  rarity.innerHTML = data.rarity;
+  var rarity = renderRarity(data.rarity);
 
   parent.appendChild(cover);
   parent.appendChild(title);
@@ -42,5 +41,22 @@ var renderPosition = function(data) {
 
   table.appendChild(parent);
 };
+
+var renderRarity = function(rarity) {
+  rarity = rarity === 0 ? 6 : rarity;
+  var rarityImg;
+  var parent = document.createElement('td');
+  parent.style.width = '120px';
+  parent.className = 'center';
+  
+  for (var i=0; i<rarity; i++) {
+    rarityImg = document.createElement('img');
+    rarityImg.className = 'rarity';
+    rarityImg.src = 'data/rarities/1.png';
+    parent.appendChild(rarityImg);
+  }
+
+  return parent;
+}
 
 collection.forEach(renderPosition);
