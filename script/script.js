@@ -1,5 +1,6 @@
 'use strict';
 /* global collection */
+/* global List */
 
 var table = document.getElementById('table');
 
@@ -76,4 +77,5 @@ var options = {
   valueNames: [ 'title', 'platform', 'region', 'rarity' ]
 };
 
-var hackerList = new List('box', options);
+var gameList = new List('box', options);
+gameList;
