@@ -100,3 +100,7 @@ img.flag {
   width: 30px;
   border: 1px solid #000;
 }
+
+.cover {
+  background-size: cover;
+}
