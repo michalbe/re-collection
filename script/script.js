@@ -81,4 +81,6 @@ var options = {
 };
 
 var gameList = new List('box', options);
-gameList;
+gameList.filter(function(item){
+  return item.elm.classList.contains('owned');
+});
