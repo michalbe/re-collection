@@ -585,7 +585,8 @@ var collection = [
     "title": "Resident Evil 5 Gold Essentials",
     "region": 1,
     "rarity": 1,
-    "platform": "ps3"
+    "platform": "ps3",
+    "owned": 1
   },
   {
     "id": "ps3-res-evi-5-gol-2",
@@ -613,7 +614,8 @@ var collection = [
     "title": "Resident Evil Operation: Raccoon City",
     "region": 1,
     "rarity": 1,
-    "platform": "ps3"
+    "platform": "ps3",
+    "owned": 1
   },
   {
     "id": "ps3-res-evi-ope-rac-cit-ess-1",
@@ -641,7 +643,8 @@ var collection = [
     "title": "Resident Evil 6",
     "region": 1,
     "rarity": 1,
-    "platform": "ps3"
+    "platform": "ps3",
+    "owned": 1
   },
   {
     "id": "ps3-res-evi-6-lim-edi-1",
@@ -704,7 +707,8 @@ var collection = [
     "title": "Resident Evil Revelations",
     "region": 1,
     "rarity": 1,
-    "platform": "ps3"
+    "platform": "ps3",
+    "owned": 1
   },
   {
     "id": "ps3-res-evi-rev-2",
@@ -1085,7 +1089,8 @@ var collection = [
     "title": "Resident Evil Zero Player's Choice",
     "region": 1,
     "rarity": 2,
-    "platform": "gc"
+    "platform": "gc",
+    "owned": 1
   },
   {
     "id": "gc-res-evi-zer-2",
