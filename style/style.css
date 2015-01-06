@@ -102,5 +102,7 @@ img.flag {
 }
 
 .cover {
-  background-size: cover;
+  width: 50px;
+  margin: 0;
+  padding: 0;
 }
