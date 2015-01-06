@@ -1,6 +1,7 @@
 'use strict';
 /* global collection */
 /* global List */
+/* global Shadowbox */
 
 var table = document.getElementById('table');
 
@@ -13,16 +14,25 @@ var renderPosition = function(data) {
   // Cover
   var cover = document.createElement('td');
   cover.className = 'center';
+  var anhor = document.createElement('a');
+  anhor.href = 'data/covers/' + data.id + '.jpg';
+  anhor.setAttribute('rel', 'shadowbox');
+
   var coverImg = document.createElement('img');
   coverImg.className = 'cover';
   coverImg.src = 'data/covers/' + data.id + '.jpg';
-  cover.appendChild(coverImg);
+
+  anhor.appendChild(coverImg);
+  cover.appendChild(anhor);
 
   coverImg.alt = data.id;
 
-  coverImg.onerror = function() {
-    this.src = 'data/covers/no-cover.jpg';
-  };
+  coverImg.onerror = (function(img, anh){
+    return function() {
+      img.src = 'data/covers/no-cover.jpg';
+      anh.href = '#';
+    };
+  })(coverImg, anhor);
 
   // Title
   var title = document.createElement('td');
@@ -100,3 +110,5 @@ filterList();
 
 document.getElementById('stats').innerHTML =
   (document.getElementsByClassName('owned').length-1) + '/' + collection.length;
+
+Shadowbox.init();
