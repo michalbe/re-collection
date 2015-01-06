@@ -837,14 +837,14 @@ var collection = [
   },
   {
     "id": "wii-a-red-col-hiv-res-evi-zer-1",
-    "title": "A Red Collection Hives: Resident Evil Zero",
+    "title": "RE Archives: Resident Evil Zero",
     "region": 1,
     "rarity": 1,
     "platform": "wii"
   },
   {
     "id": "wii-a-red-col-hiv-res-evi-zer-2",
-    "title": "A Red Collection Hives: Resident Evil Zero",
+    "title": "RE Archives: Resident Evil Zero",
     "region": 2,
     "rarity": 1,
     "platform": "wii"
@@ -865,14 +865,14 @@ var collection = [
   },
   {
     "id": "wii-a-red-col-hiv-res-evi-1",
-    "title": "A Red Collection Hives: Resident Evil",
+    "title": "RE Archives: Resident Evil",
     "region": 1,
     "rarity": 1,
     "platform": "wii"
   },
   {
     "id": "wii-a-red-col-hiv-res-evi-2",
-    "title": "A Red Collection Hives: Resident Evil",
+    "title": "RE Archives: Resident Evil",
     "region": 2,
     "rarity": 1,
     "platform": "wii"
@@ -899,23 +899,23 @@ var collection = [
     "platform": "wii"
   },
   {
-    "id": "wii-res-evi-the-umb-chr-1",
+    "id": "wii-res-evi-the-umb-chr-2",
     "title": "Resident Evil The Umbrella Chronicles",
-    "region": 1,
+    "region": 2,
     "rarity": 1,
     "platform": "wii"
   },
   {
-    "id": "wii-bio-the-umb-chr-1",
+    "id": "wii-bio-the-umb-chr-3",
     "title": "Biohazard The Umbrella Chronicles",
-    "region": 1,
+    "region": 3,
     "rarity": 2,
     "platform": "wii"
   },
   {
-    "id": "wii-bio-the-umb-chr-bes-pri-1",
+    "id": "wii-bio-the-umb-chr-bes-pri-3",
     "title": "Biohazard The Umbrella Chronicles (Best Price!)",
-    "region": 1,
+    "region": 3,
     "rarity": 0,
     "platform": "wii"
   },
