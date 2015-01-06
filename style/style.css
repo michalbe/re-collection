@@ -90,6 +90,11 @@ img.platform {
   height: 20px;
 }
 
+img.rarity {
+  width: 15px;
+  height: 15px;
+  display: inline;
+}
 img.flag {
   height: 20px;
   width: 30px;
