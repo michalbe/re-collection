@@ -97,3 +97,6 @@ document.getElementById('show-all').addEventListener('click', function() {
 
 });
 filterList();
+
+document.getElementById('stats').innerHTML =
+  (document.getElementsByClassName('owned').length-1) + '/' + collection.length;
