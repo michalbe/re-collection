@@ -1653,5 +1653,12 @@ var collection = [
     "region": 7,
     "rarity": 1,
     "platform": "pc"
+  },
+  {
+    "id": "pc-res-evi-4-cda",
+    "title": "Resident Evil 4 CD-Action",
+    "region": 7,
+    "rarity": 1,
+    "platform": "pc"
   }
 ];
