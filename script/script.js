@@ -12,7 +12,8 @@ var renderPosition = function(data) {
   cover.style.backgroundImage = 'url(data/covers/no-cover.jpg)';
   cover.onerror = function() {
     this.src= 'url(data/covers/no-cover.jpg)';
-  }
+  };
+  
   // Title
   var title = document.createElement('td');
   title.innerHTML = data.title;
