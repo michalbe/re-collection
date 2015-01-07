@@ -90,7 +90,8 @@ var renderRarity = function(rarity) {
 collection.forEach(renderPosition);
 
 var options = {
-  valueNames: [ 'title', 'platform', 'region', 'rarity' ]
+  valueNames: [ 'title', 'platform', 'region', 'rarity' ],
+  page: 500
 };
 
 var gameList = new List('box', options);
@@ -110,9 +111,8 @@ document.getElementById('show-all').addEventListener('click', function() {
 
 });
 
-document.getElementById('stats').innerHTML =
-  (document.getElementsByClassName('owned').length-1) + '/' + collection.length;
-
-
 window.onload = filterList;
 Shadowbox.init();
+
+document.getElementById('stats').innerHTML =
+  (document.getElementsByClassName('owned').length-1) + '/' + collection.length;
