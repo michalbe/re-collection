@@ -109,9 +109,10 @@ document.getElementById('show-all').addEventListener('click', function() {
     (filterList(), "Show all games");
 
 });
-filterList();
 
 document.getElementById('stats').innerHTML =
   (document.getElementsByClassName('owned').length-1) + '/' + collection.length;
 
+
+window.onload = filterList;
 Shadowbox.init();
