@@ -3,28 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style/shadowbox.css">
   <link rel="stylesheet" href="style/pure-min.css">
   <link rel="stylesheet" href="style/style.css">
-  <title>re-collection</title>
+  <title>My Resident Evil games collection</title>
 </head>
 <body>
   <div id="box">
     <main id="center">
+      <button id="show-all" class="pure-button">Show all games</button>
+      <button id="stats" class="pure-button">Show all games</button>x
       <table class="pure-table pure-table-horizontal">
         <thead>
-          <tr>
+          <tr class="owned">
             <th>Cover</th>
-            <th>Title</th>
-            <th>Platform</th>
-            <th>Region</th>
-            <th>Rarity</th>
+            <th><span class="sort" data-sort="title">Title</span></th>
+            <th><span class="sort" data-sort="platform">Platform</span></th>
+            <th><span class="sort" data-sort="region">Region</span></th>
+            <th><span class="sort" data-sort="rarity">Rarity</span></th>
           </tr>
         </thead>
-        <tbody id="table"></tbody>
+        <tbody id="table" class="list"></tbody>
       </table>
     </main>
   </div>
   <script src="data/collection.js"></script>
+  <script src="style/shadowbox.js"></script>
+  <script src="script/list.min.js"></script>
   <script src="script/script.js"></script>
 </body>
 </html>

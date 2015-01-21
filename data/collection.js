@@ -70,7 +70,8 @@ var collection = [
     "title": "Resident Evil Dead Aim",
     "region": 1,
     "rarity": 2,
-    "platform": "ps2"
+    "platform": "ps2",
+    "owned": 1
   },
   {
     "id": "ps2-res-evi-dea-aim-2",
@@ -91,7 +92,8 @@ var collection = [
     "title": "Resident Evil Outbreak",
     "region": 1,
     "rarity": 1,
-    "platform": "ps2"
+    "platform": "ps2",
+    "owned": 1
   },
   {
     "id": "ps2-res-evi-out-pla-1",
@@ -133,7 +135,8 @@ var collection = [
     "title": "Resident Evil Outbreak File #2",
     "region": 1,
     "rarity": 1,
-    "platform": "ps2"
+    "platform": "ps2",
+    "owned": 1
   },
   {
     "id": "ps2-res-evi-out-fil-2-2",
@@ -154,7 +157,8 @@ var collection = [
     "title": "Resident Evil Code: Veronica X + Demo Devil May Cry",
     "region": 1,
     "rarity": 1,
-    "platform": "ps2"
+    "platform": "ps2",
+    "owned": 1
   },
   {
     "id": "ps2-res-evi-cod-ver-x-1",
@@ -168,7 +172,8 @@ var collection = [
     "title": "Resident Evil Code: Veronica X Platinum",
     "region": 1,
     "rarity": 1,
-    "platform": "ps2"
+    "platform": "ps2",
+    "owned": 1
   },
   {
     "id": "ps2-res-evi-cod-ver-x-ps2-the-bes-of-1",
@@ -308,7 +313,8 @@ var collection = [
     "title": "Resident Evil White Label",
     "region": 1,
     "rarity": 2,
-    "platform": "ps1"
+    "platform": "ps1",
+    "owned": 1
   },
   {
     "id": "ps1-res-evi-whi-lab-val-ser-1",
@@ -336,7 +342,8 @@ var collection = [
     "title": "Biohazard",
     "region": 3,
     "rarity": 2,
-    "platform": "ps1"
+    "platform": "ps1",
+    "owned": 1
   },
   {
     "id": "ps1-res-evi-dir-cut-1",
@@ -385,7 +392,8 @@ var collection = [
     "title": "Resident Evil 2",
     "region": 1,
     "rarity": 1,
-    "platform": "ps1"
+    "platform": "ps1",
+    "owned": 1
   },
   {
     "id": "ps1-res-evi-2-pla-1",
@@ -434,7 +442,8 @@ var collection = [
     "title": "Biohazard 2",
     "region": 3,
     "rarity": 1,
-    "platform": "ps1"
+    "platform": "ps1",
+    "owned": 1
   },
   {
     "id": "ps1-bio-2-ds-3",
@@ -448,7 +457,8 @@ var collection = [
     "title": "Resident Evil 3",
     "region": 1,
     "rarity": 1,
-    "platform": "ps1"
+    "platform": "ps1",
+    "owned": 1
   },
   {
     "id": "ps1-res-evi-3-2",
@@ -476,7 +486,8 @@ var collection = [
     "title": "Biohazard 3",
     "region": 3,
     "rarity": 2,
-    "platform": "ps1"
+    "platform": "ps1",
+    "owned": 1
   },
   {
     "id": "ps1-bio-3-cap-res-evi-3",
@@ -574,7 +585,8 @@ var collection = [
     "title": "Resident Evil 5 Gold Essentials",
     "region": 1,
     "rarity": 1,
-    "platform": "ps3"
+    "platform": "ps3",
+    "owned": 1
   },
   {
     "id": "ps3-res-evi-5-gol-2",
@@ -602,7 +614,8 @@ var collection = [
     "title": "Resident Evil Operation: Raccoon City",
     "region": 1,
     "rarity": 1,
-    "platform": "ps3"
+    "platform": "ps3",
+    "owned": 1
   },
   {
     "id": "ps3-res-evi-ope-rac-cit-ess-1",
@@ -630,7 +643,8 @@ var collection = [
     "title": "Resident Evil 6",
     "region": 1,
     "rarity": 1,
-    "platform": "ps3"
+    "platform": "ps3",
+    "owned": 1
   },
   {
     "id": "ps3-res-evi-6-lim-edi-1",
@@ -693,7 +707,8 @@ var collection = [
     "title": "Resident Evil Revelations",
     "region": 1,
     "rarity": 1,
-    "platform": "ps3"
+    "platform": "ps3",
+    "owned": 1
   },
   {
     "id": "ps3-res-evi-rev-2",
@@ -837,14 +852,14 @@ var collection = [
   },
   {
     "id": "wii-a-red-col-hiv-res-evi-zer-1",
-    "title": "A Red Collection Hives: Resident Evil Zero",
+    "title": "RE Archives: Resident Evil Zero",
     "region": 1,
     "rarity": 1,
     "platform": "wii"
   },
   {
     "id": "wii-a-red-col-hiv-res-evi-zer-2",
-    "title": "A Red Collection Hives: Resident Evil Zero",
+    "title": "RE Archives: Resident Evil Zero",
     "region": 2,
     "rarity": 1,
     "platform": "wii"
@@ -865,14 +880,15 @@ var collection = [
   },
   {
     "id": "wii-a-red-col-hiv-res-evi-1",
-    "title": "A Red Collection Hives: Resident Evil",
+    "title": "RE Archives: Resident Evil",
     "region": 1,
     "rarity": 1,
-    "platform": "wii"
+    "platform": "wii",
+    "owned": 1
   },
   {
     "id": "wii-a-red-col-hiv-res-evi-2",
-    "title": "A Red Collection Hives: Resident Evil",
+    "title": "RE Archives: Resident Evil",
     "region": 2,
     "rarity": 1,
     "platform": "wii"
@@ -896,26 +912,27 @@ var collection = [
     "title": "Resident Evil The Umbrella Chronicles",
     "region": 1,
     "rarity": 1,
-    "platform": "wii"
+    "platform": "wii",
+    "owned": 1
   },
   {
-    "id": "wii-res-evi-the-umb-chr-1",
+    "id": "wii-res-evi-the-umb-chr-2",
     "title": "Resident Evil The Umbrella Chronicles",
-    "region": 1,
+    "region": 2,
     "rarity": 1,
     "platform": "wii"
   },
   {
-    "id": "wii-bio-the-umb-chr-1",
+    "id": "wii-bio-the-umb-chr-3",
     "title": "Biohazard The Umbrella Chronicles",
-    "region": 1,
+    "region": 3,
     "rarity": 2,
     "platform": "wii"
   },
   {
-    "id": "wii-bio-the-umb-chr-bes-pri-1",
+    "id": "wii-bio-the-umb-chr-bes-pri-3",
     "title": "Biohazard The Umbrella Chronicles (Best Price!)",
-    "region": 1,
+    "region": 3,
     "rarity": 0,
     "platform": "wii"
   },
@@ -1029,7 +1046,8 @@ var collection = [
     "title": "Resident Evil Code: Veronica",
     "region": 1,
     "rarity": 2,
-    "platform": "dc"
+    "platform": "dc",
+    "owned": 1
   },
   {
     "id": "dc-res-evi-cod-ver-2",
@@ -1071,7 +1089,8 @@ var collection = [
     "title": "Resident Evil Zero Player's Choice",
     "region": 1,
     "rarity": 2,
-    "platform": "gc"
+    "platform": "gc",
+    "owned": 1
   },
   {
     "id": "gc-res-evi-zer-2",
@@ -1099,7 +1118,8 @@ var collection = [
     "title": "Resident Evil",
     "region": 1,
     "rarity": 1,
-    "platform": "gc"
+    "platform": "gc",
+    "owned": 1
   },
   {
     "id": "gc-res-evi-2",
@@ -1225,7 +1245,8 @@ var collection = [
     "title": "Resident Evil 4 Game Stop Special Edition",
     "region": 2,
     "rarity": 0,
-    "platform": "gc"
+    "platform": "gc",
+    "owned": 1
   },
   {
     "id": "gc-bio-4-3",
@@ -1379,7 +1400,8 @@ var collection = [
     "title": "Resident Evil Big Box",
     "region": 0,
     "rarity": 2,
-    "platform": "pc"
+    "platform": "pc",
+    "owned": 1
   },
   {
     "id": "pc-res-evi-big-box-whi-lab-0",
@@ -1421,7 +1443,8 @@ var collection = [
     "title": "Resident Evil 2 Big Box",
     "region": 1,
     "rarity": 4,
-    "platform": "pc"
+    "platform": "pc",
+    "owned": 1
   },
   {
     "id": "pc-res-evi-2-whi-lab-dvd-0",
@@ -1462,8 +1485,9 @@ var collection = [
     "id": "pc-res-evi-3-big-box-1",
     "title": "Resident Evil 3 Big Box",
     "region": 1,
-    "rarity": 2,
-    "platform": "pc"
+    "rarity": 3,
+    "platform": "pc",
+    "owned": 1
   },
   {
     "id": "pc-res-evi-3-xpl-1",
@@ -1582,7 +1606,8 @@ var collection = [
     "title": "Resident Evil 6",
     "region": 1,
     "rarity": 1,
-    "platform": "pc"
+    "platform": "pc",
+    "owned": 1
   },
   {
     "id": "pc-bio-6-3",
@@ -1646,5 +1671,45 @@ var collection = [
     "region": 8,
     "rarity": 0,
     "platform": "pc"
+  },
+  {
+    "id": "pc-res-evi-5-cda",
+    "title": "Resident Evil 5 CD-Action",
+    "region": 7,
+    "rarity": 1,
+    "platform": "pc",
+    "owned": 1
+  },
+  {
+    "id": "pc-res-evi-4-cda",
+    "title": "Resident Evil 4 CD-Action",
+    "region": 7,
+    "rarity": 1,
+    "platform": "pc",
+    "owned": 1
+  },
+  {
+    "id": "pc-res-evi-4-supers",
+    "title": "Resident Evil 4 Super$eller",
+    "region": 7,
+    "rarity": 3,
+    "platform": "pc",
+    "owned": 1
+  },
+  {
+    "id": "pc-res-evi-5-pg",
+    "title": "Resident Evil 5 Premium Games",
+    "region": 1,
+    "rarity": 3,
+    "platform": "pc",
+    "owned": 1
+  },
+  {
+    "id": "ps3-res-evi-bio-remastered",
+    "title": "Resident Evil/Biohazard Remastered",
+    "region": 0,
+    "rarity": 1,
+    "platform": "ps2",
+    "owned": 1
   }
 ];
