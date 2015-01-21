@@ -6,7 +6,6 @@
   "newcap": false,
   "noarg": true,
   "nonew": true,
-  "quotmark": "single",
   "undef": true,
   "unused": "vars",
   "strict": true,
@@ -20,9 +19,8 @@
   "regexdash": true,
   "laxcomma": true,
   "proto": true,
-  "node": true,
+  "browser": true,
   "devel": true,
   "nonstandard": true,
-  "worker": true,
-  "predef": ["steal"]
+  "worker": true
 }

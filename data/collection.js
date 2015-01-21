@@ -1,4 +1,7 @@
-[
+'use strict';
+
+/* exported collection */
+var collection = [
   {
     "id": "gbc-res-evi-gai-1",
     "title": "Resident Evil Gaiden",
@@ -1644,4 +1647,4 @@
     "rarity": 0,
     "platform": "pc"
   }
-]
+];
