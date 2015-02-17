@@ -1069,6 +1069,7 @@ var collection = [
     "region": 3,
     "rarity": 1,
     "platform": "dc"
+    "owned": 1
   },
   {
     "id": "dc-bio-cod-ver-x-com-3",
