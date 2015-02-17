@@ -1065,10 +1065,10 @@ var collection = [
   },
   {
     "id": "dc-bio-cod-ver-spe-3",
-    "title": "Biohazard Code: Veronica Specialed",
+    "title": "Biohazard Code: Veronica Special Edition",
     "region": 3,
     "rarity": 1,
-    "platform": "dc"
+    "platform": "dc",
     "owned": 1
   },
   {
