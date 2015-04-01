@@ -1530,7 +1530,8 @@ var collection = [
     "title": "Resident Evil Operation: Raccoon City",
     "region": 1,
     "rarity": 1,
-    "platform": "pc"
+    "platform": "pc",
+    "owned": 1
   },
   {
     "id": "pc-bio-ope-rac-cit-3",
