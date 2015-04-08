@@ -536,7 +536,8 @@ var collection = [
     "title": "Resident Evil 5 Limited Edition",
     "region": 1,
     "rarity": 1,
-    "platform": "ps3"
+    "platform": "ps3",
+    "owned": 1
   },
   {
     "id": "ps3-res-evi-5-pla-1",
